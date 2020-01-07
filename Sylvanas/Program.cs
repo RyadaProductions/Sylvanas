@@ -15,6 +15,7 @@ using Microsoft.Extensions.Logging;
 using Remora.Behaviours.Services;
 using Remora.Plugins.Services;
 using Sylvanas.Core.Services;
+using Sylvanas.Plugins.JumboEmotes;
 
 namespace Sylvanas
 {
@@ -56,8 +57,8 @@ namespace Sylvanas
                         .AddSingleton<CommandService>()
                         .AddSingleton<BehaviourService>()
                         .AddSingleton<ContentService>()
-                        // .AddSingleton<DiscordService>()
-                        // .AddSingleton<UserFeedbackService>()
+                        //.AddSingleton<DiscordService>()
+                        .AddSingleton<UserFeedbackService>()
                         // .AddSingleton<InteractivityService>()
                         .AddSingleton<DelayedActionService>()
                         // .AddSingleton<SchemaAwareDbContextService>()

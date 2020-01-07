@@ -4,13 +4,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sylvanas", "Sylvanas\Sylvan
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{EEAF5881-2664-4300-8CB3-32A8DF538D88}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sylvanas.Plugins.Abstractions.Database", "Sylvanas.Plugins.Abstractions.Database\Sylvanas.Plugins.Abstractions.Database.csproj", "{DCBD8017-B570-452A-9C41-15AABB94CCE6}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Abstractions", "Abstractions", "{BDA6628C-90BE-432F-814F-509F9F9BD552}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{81ACE821-A25D-495C-B90A-D59038115EFE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sylvanas.Core", "Sylvanas.Core\Sylvanas.Core.csproj", "{3B013D42-493B-4D25-83D1-BF1A5A5CB255}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sylvanas.Plugins.JumboEmotes", "Plugins\Sylvanas.Plugins.JumboEmotes\Sylvanas.Plugins.JumboEmotes.csproj", "{8BF703D0-8659-4093-81C4-791CEA1855A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,18 +20,17 @@ Global
 		{5B240828-1358-4F17-8F6A-630A66156DB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B240828-1358-4F17-8F6A-630A66156DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B240828-1358-4F17-8F6A-630A66156DB3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DCBD8017-B570-452A-9C41-15AABB94CCE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DCBD8017-B570-452A-9C41-15AABB94CCE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DCBD8017-B570-452A-9C41-15AABB94CCE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DCBD8017-B570-452A-9C41-15AABB94CCE6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3B013D42-493B-4D25-83D1-BF1A5A5CB255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3B013D42-493B-4D25-83D1-BF1A5A5CB255}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B013D42-493B-4D25-83D1-BF1A5A5CB255}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B013D42-493B-4D25-83D1-BF1A5A5CB255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BF703D0-8659-4093-81C4-791CEA1855A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BF703D0-8659-4093-81C4-791CEA1855A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BF703D0-8659-4093-81C4-791CEA1855A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BF703D0-8659-4093-81C4-791CEA1855A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{BDA6628C-90BE-432F-814F-509F9F9BD552} = {EEAF5881-2664-4300-8CB3-32A8DF538D88}
-		{DCBD8017-B570-452A-9C41-15AABB94CCE6} = {BDA6628C-90BE-432F-814F-509F9F9BD552}
 		{3B013D42-493B-4D25-83D1-BF1A5A5CB255} = {81ACE821-A25D-495C-B90A-D59038115EFE}
+		{8BF703D0-8659-4093-81C4-791CEA1855A9} = {EEAF5881-2664-4300-8CB3-32A8DF538D88}
 	EndGlobalSection
 EndGlobal
